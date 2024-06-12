@@ -33,7 +33,7 @@ st.title("Traductor de Español a Mix")
 sentence = st.text_input("Escribe una oración en español para traducir:").lower
 
 if st.button("Traducir"):
-        translated_sentence = translate_sentence(sentence)
-   st.write("Oración traducida al inglés:", translated_sentence)
+   translated_sentence = translate_sentence(sentence)
+st.write("Oración traducida al inglés:", translated_sentence)
         
   
