@@ -29,7 +29,7 @@ def translate_sentence(sentence):
         return translated_sentence
 
 # Interfaz de usuario con Streamlit
-st.title("Traductor de Español a Mixteco")
+st.title("Traductor de Español a Mix")
 sentence = st.text_input("Escribe una oración en español para traducir:").lower
 
 if st.button("Traducir"):
