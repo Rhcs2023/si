@@ -34,6 +34,6 @@ sentence = st.text_input("Escribe una oración en español para traducir:").lowe
 
 if st.button("Traducir"):
         translated_sentence = translate_sentence(sentence)
-        st.write("Oración traducida al inglés:", translated_sentence)
+   st.write("Oración traducida al inglés:", translated_sentence)
         
   
